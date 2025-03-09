@@ -27,7 +27,7 @@ const HomeTab = () => {
     dispatch(setLoading(true));
     try {
       const response = await axios.post(
-        "http://192.168.29.39:8000/api/generate-fact/",
+        "http://your_ip_address:8000/api/generate-fact/",
         { category }
       );
       const newFact: Fact = {
