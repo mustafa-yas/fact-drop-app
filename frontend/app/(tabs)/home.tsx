@@ -16,8 +16,8 @@ import Categories from "@/components/categories";
 
 const HomeTab = () => {
   const [category, setCategory] = useState<string>("");
-
   const [showCategories, setShowCategories] = useState<boolean>(false);
+  
   const { allFacts, currentFact } = useSelector(
     (state: RootState) => state.facts
   );
