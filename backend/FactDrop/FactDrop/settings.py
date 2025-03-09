@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-459t@&1+a)$#bg-k7#rk#)o@9w(k85&$q&^5omjfzg_82xmuz)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Your_ip_address']
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ALLOWED_HOSTS = ['192.168.29.39']
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'FactDrop.urls'
